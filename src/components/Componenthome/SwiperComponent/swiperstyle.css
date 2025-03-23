@@ -1,0 +1,69 @@
+
+
+.custom-swiper-button-prev,
+.custom-swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  border: 1px solid #ED553B;
+  padding: 5px 10px;
+  border-radius: 50%;
+  color: #ED553B; 
+  background-color: white;
+}
+.custom-swiper-button-prev {
+  left: 32px;
+}
+
+.custom-swiper-button-next {
+  right: 32px;
+}
+
+.custom-swiper-button-prev:hover,
+.custom-swiper-button-next:hover {
+  background: #ed563b6c; 
+}
+/* ------------------------------------------- */
+.swiper-pagination {
+    position: relative !important;
+    display: flex !important;
+    justify-content: start !important;
+    top: -170px !important; 
+    left: 170px !important;
+    padding-left: 5px; 
+    z-index: 50 !important;
+  }
+  @media (max-width:768px) {
+    .swiper-pagination{
+    top: -10px !important; 
+    left: 10px !important;
+    padding-left: 30px;
+    }
+  }
+  
+  .swiper-pagination-bullet {
+    width: 16px !important; 
+    height: 16px !important;
+    border: 2px solid #ED553B !important; 
+    background-color: white !important; 
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.3s ease !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: transparent !important; 
+    position: relative !important;
+  }
+  .swiper-pagination-bullet-active::after {
+    content: "";  
+    width: 8px; 
+    height: 8px;
+    background-color: #ED553B; 
+    border-radius: 50%;
+    position: absolute;
+  }

@@ -1,0 +1,16 @@
+.componentSwiperButtonPrev,
+.componentSwiperButtonNext{
+    z-index: 10;
+    cursor: pointer;
+    border: 1px solid #ED553B;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+.componentSwiperButtonNext{
+    color: white; 
+    background-color: #ED553B;
+}
+.componentSwiperButtonPrev{
+    color: #ED553B; 
+    background-color: white;
+}

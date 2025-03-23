@@ -1,5 +1,7 @@
 import React from "react";
 import MasterLayout from "../Layouts/MasterLayout/layout";
+import Navbar from "@/components/Shared/Navbar/Navbar";
+import Topbar from "@/components/Shared/Topbar/Topbar";
 
 export default function layout({
   children,
@@ -8,6 +10,8 @@ export default function layout({
 }>) {
   return (
     <div className="">
+      <Topbar/>
+      <Navbar/>
       <MasterLayout>
         {children}
       </MasterLayout>

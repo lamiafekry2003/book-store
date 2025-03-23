@@ -1,13 +1,13 @@
 
-import Navbar from '@/components/Shared/Navbar/Navbar'
-import Topbar from '@/components/Shared/Topbar/Topbar'
+import Header from '@/components/Componenthome/Header/Header'
+import Topcategory from '@/components/Componenthome/Topcategory/Topcategory'
 import React from 'react'
 
 export default function page() {
   return (
     <>
-     <Topbar/>
-     <Navbar/>
+     <Header/>
+     <Topcategory/>
     <div>page</div>
     </>
   )
